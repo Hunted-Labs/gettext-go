@@ -3,14 +3,14 @@
 
 ----
 
-# gettext-go: GNU gettext for Go ([Imported By Kubernetes](https://pkg.go.dev/github.com/chai2010/gettext-go@v0.1.0/gettext?tab=importedby))
+# gettext-go: GNU gettext for Go ([Imported By Kubernetes](https://pkg.go.dev/github.com/Hunted-Labs/gettext-go@v0.1.0/gettext?tab=importedby))
 
-- PkgDoc: [http://godoc.org/github.com/chai2010/gettext-go](http://godoc.org/github.com/chai2010/gettext-go)
-- PkgDoc: [http://pkg.go.dev/github.com/chai2010/gettext-go](http://pkg.go.dev/github.com/chai2010/gettext-go)
+- PkgDoc: [http://godoc.org/github.com/Hunted-Labs/gettext-go](http://godoc.org/github.com/Hunted-Labs/gettext-go)
+- PkgDoc: [http://pkg.go.dev/github.com/Hunted-Labs/gettext-go](http://pkg.go.dev/github.com/Hunted-Labs/gettext-go)
 
 ## Install
 
-1. `go get github.com/chai2010/gettext-go`
+1. `go get github.com/Hunted-Labs/gettext-go`
 2. `go run hello.go`
 
 The godoc.org or go.dev has more information.
@@ -23,7 +23,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/chai2010/gettext-go"
+	"github.com/Hunted-Labs/gettext-go"
 )
 
 func main() {
@@ -40,7 +40,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/chai2010/gettext-go"
+	"github.com/Hunted-Labs/gettext-go"
 )
 
 func main() {
@@ -66,7 +66,7 @@ func main() {
 }
 ```
 
-Go file: [hello.go](https://github.com/chai2010/gettext-go/blob/master/examples/hello.go); PO file: [hello.po](https://github.com/chai2010/gettext-go/blob/master/examples/locale/default/LC_MESSAGES/hello.po);
+Go file: [hello.go](https://github.com/Hunted-Labs/gettext-go/blob/master/examples/hello.go); PO file: [hello.po](https://github.com/Hunted-Labs/gettext-go/blob/master/examples/locale/default/LC_MESSAGES/hello.po);
 
 ----
 
@@ -76,10 +76,10 @@ Go file: [hello.go](https://github.com/chai2010/gettext-go/blob/master/examples/
 
 | v0.1.0 (old)                                    | v1.0.0 (new)                            |
 | ----------------------------------------------- | --------------------------------------- |
-| `github.com/chai2010/gettext-go/gettext`        | `github.com/chai2010/gettext-go`        |
-| `github.com/chai2010/gettext-go/gettext/po`     | `github.com/chai2010/gettext-go/po`     |
-| `github.com/chai2010/gettext-go/gettext/mo`     | `github.com/chai2010/gettext-go/mo`     |
-| `github.com/chai2010/gettext-go/gettext/plural` | `github.com/chai2010/gettext-go/plural` |
+| `github.com/Hunted-Labs/gettext-go/gettext`        | `github.com/Hunted-Labs/gettext-go`        |
+| `github.com/Hunted-Labs/gettext-go/gettext/po`     | `github.com/Hunted-Labs/gettext-go/po`     |
+| `github.com/Hunted-Labs/gettext-go/gettext/mo`     | `github.com/Hunted-Labs/gettext-go/mo`     |
+| `github.com/Hunted-Labs/gettext-go/gettext/plural` | `github.com/Hunted-Labs/gettext-go/plural` |
 
 ### Renamed functions
 
